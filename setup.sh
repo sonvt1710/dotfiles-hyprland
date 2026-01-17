@@ -88,7 +88,7 @@ sudo pacman -S --needed --noconfirm \
     matugen \
     starship \
     fish \
-    adw-gtk-theme
+    adw-gtk-theme \
     zenity
 
 # Check and install yay
