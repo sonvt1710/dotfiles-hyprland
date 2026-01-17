@@ -70,6 +70,7 @@ sudo pacman -Syu --noconfirm
 # Install required packages
 log_info "Installing packages: Hyprland and related tools..."
 sudo pacman -S --needed --noconfirm \
+    base-devel \
     hyprland \
     playerctl \
     kitty \
