@@ -123,7 +123,8 @@ yay -S --needed --noconfirm \
   papirus-icon-theme \
   otf-comicshanns-nerd \
   cava \
-  mpvpaper
+  mpvpaper \
+  hyprpaper
 
 # Install quickshell configuration
 log_info "Installing quickshell configuration..."
