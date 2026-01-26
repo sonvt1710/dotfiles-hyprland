@@ -3,7 +3,7 @@
     "primary": {
         "background": "{{colors.surface.default.hex}}",
         "dim_background": "{{colors.surface_dim.default.hex}}",
-        "foreground": "{{colors.primary.default.hex}}",
+        "foreground": "{{colors.on_surface_variant.default.hex}}",
         "dim_foreground": "{{colors.secondary_fixed_dim.default.hex}}",
         "bright_foreground": "{{colors.primary.default.hex}}"
     },
