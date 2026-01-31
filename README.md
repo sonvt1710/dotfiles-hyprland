@@ -29,19 +29,6 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
-### For NixOS
-
-Using Home Manager (recommended):
-
-```bash
-cd ~
-git clone https://github.com/mailong2401/dotfiles-hyprland
-cd dotfiles-hyprland
-# Edit flake.nix and replace "yourUsername"
-nix run home-manager/master -- switch --flake .#yourUsername
-```
-
-For detailed NixOS installation instructions, see [INSTALL_NIX.md](INSTALL_NIX.md)
 
 The script will:
 1. Check sudo permissions
