@@ -13,5 +13,6 @@ FINAL_SCALE=$(awk -v w="$WIDTH" -v b="$BASE_WIDTH" -v s="$SCALE" \
   'BEGIN { printf "%.3f", (w/b)/s }')
 
 export QT_SCALE_FACTOR="$FINAL_SCALE"
+export QT_QPA_PLATFORMTHEME=gtk3
 
 exec quickshell --path "$QS_PATH"
