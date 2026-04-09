@@ -89,6 +89,7 @@ sudo pacman -S --needed --noconfirm \
   starship \
   fish \
   adw-gtk-theme \
+  qt6-multimedia \
   zenity
 
 # Check and install yay
