@@ -72,14 +72,11 @@ log_info "Installing packages: Hyprland and related tools..."
 sudo pacman -S --needed --noconfirm \
   base-devel \
   hyprland \
-  playerctl \
   kitty \
   brightnessctl \
-  swaybg \
   wl-clipboard \
   noto-fonts-cjk \
-  thunar \
-  thunar-archive-plugin \
+  nautilus \
   grim \
   slurp \
   xdg-desktop-portal-hyprland \
@@ -89,8 +86,8 @@ sudo pacman -S --needed --noconfirm \
   starship \
   fish \
   adw-gtk-theme \
-  qt6-multimedia \
-  zenity
+  bc \
+  qt6-multimedia
 
 # Check and install yay
 if command -v yay &>/dev/null; then

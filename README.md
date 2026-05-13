@@ -50,9 +50,9 @@ If you prefer manual installation:
 sudo pacman -Syu
 
 # Install packages
-sudo pacman -S --needed hyprland playerctl kitty brightnessctl swaybg \
-  wl-clipboard noto-fonts-cjk thunar thunar-archive-plugin grim slurp \
-  xdg-desktop-portal-hyprland dunst hyprpaper jq
+sudo pacman -S --needed hyprland kitty brightnessctl \
+  wl-clipboard noto-fonts-cjk nautilus grim slurp \
+  xdg-desktop-portal-hyprland hyprpaper jq bc qt6-multimedia
 
 # Install yay
 git clone https://aur.archlinux.org/yay.git
