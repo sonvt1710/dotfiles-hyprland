@@ -118,6 +118,7 @@ yay -S --needed --noconfirm \
   quickshell-git \
   sysstat \
   papirus-icon-theme \
+  ttf-material-symbols-variable-git \
   otf-comicshanns-nerd \
   cava \
   mpvpaper \
