@@ -61,7 +61,7 @@ makepkg -si
 cd ..
 
 # Install AUR packages
-yay -S quickshell-git sysstat papirus-icon-theme otf-comicshanns-nerd cava mpvpaper
+yay -S quickshell-git sysstat papirus-icon-theme otf-comicshanns-nerd cava ttf-material-symbols-variable-git
 
 # Copy configs
 cp -r .config ~/
@@ -79,10 +79,8 @@ git clone https://github.com/mailong2401/cartoon-shell.git ~/.config/quickshell/
 |---------|-------------|
 | `hyprland` | Dynamic tiling Wayland compositor |
 | `hyprpaper` | Wallpaper utility for Hyprland |
-| `playerctl` | Media player controller |
 | `kitty` | GPU-accelerated terminal emulator |
 | `brightnessctl` | Brightness control tool |
-| `swaybg` | Wallpaper tool for Wayland |
 | `wl-clipboard` | Wayland clipboard utilities |
 | `noto-fonts-cjk` | CJK fonts support |
 | `thunar` | File manager |
@@ -92,6 +90,7 @@ git clone https://github.com/mailong2401/cartoon-shell.git ~/.config/quickshell/
 | `xdg-desktop-portal-hyprland` | XDG Desktop Portal for Hyprland |
 | `dunst` | Notification daemon |
 | `jq` | JSON processor |
+| `qt6-multimedia` | Quickshell plugin |
 
 ### AUR Packages (yay)
 
@@ -102,7 +101,7 @@ git clone https://github.com/mailong2401/cartoon-shell.git ~/.config/quickshell/
 | `papirus-icon-theme` | Icon theme |
 | `otf-comicshanns-nerd` | Nerd Font variant |
 | `cava` | Audio visualizer |
-| `mpvpaper` | Video wallpaper tool |
+| `ttf-material-symbols-variable-git` | Nerd Font variant |
 
 ### Additional Configuration
 
