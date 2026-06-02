@@ -122,6 +122,7 @@ yay -S --needed --noconfirm \
   otf-comicshanns-nerd \
   cava \
   mpvpaper \
+  qt6-5compat \
   hyprpaper
 
 # Install quickshell configuration
