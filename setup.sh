@@ -80,7 +80,6 @@ sudo pacman -S --needed --noconfirm \
   grim \
   slurp \
   xdg-desktop-portal-hyprland \
-  hyprpaper \
   jq \
   matugen \
   starship \
@@ -121,9 +120,7 @@ yay -S --needed --noconfirm \
   ttf-material-symbols-variable-git \
   otf-comicshanns-nerd \
   cava \
-  mpvpaper \
-  qt6-5compat \
-  hyprpaper
+  qt6-5compat
 
 # Install quickshell configuration
 log_info "Installing quickshell configuration..."
