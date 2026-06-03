@@ -80,12 +80,12 @@ hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true 
 hl.bind(
 	"PRINT",
 	hl.dsp.exec_cmd(
-		"grim - | tee ~/Pictures/screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy && notify-send 📸 Screenshot 'Đã chụp toàn màn hình\\nẢnh đã lưu & copy'"
+		'FILE=~/Pictures/screenshot_$(date +\'%Y-%m-%d_%H-%M-%S\').png && grim "$FILE" && wl-copy --type image/png < "$FILE" && notify-send "📸 Screenshot" "Đã chụp toàn màn hình\\nẢnh đã lưu & copy"'
 	)
 )
 hl.bind(
 	mainMod .. " + PRINT",
 	hl.dsp.exec_cmd(
-		"grim -g $(slurp) - | tee ~/Pictures/screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy && notify-send 📸 Screenshot 'Đã chụp vùng chọn\\nẢnh đã lưu & copy'"
+		'FILE=~/Pictures/screenshot_$(date +\'%Y-%m-%d_%H-%M-%S\').png && grim -g "$(slurp)" "$FILE" && wl-copy < "$FILE" && notify-send "📸 Screenshot" "Đã chụp vùng chọn\\nẢnh đã lưu & copy"'
 	)
 )
