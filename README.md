@@ -1,6 +1,6 @@
-# Hyprland Dotfiles
+# Hyprland(Lua) Dotfiles
 
-A complete Hyprland configuration with Quickshell, custom themes, and essential tools for a beautiful Wayland desktop experience.
+A complete Hyprland(Lua) configuration with Quickshell, custom themes, and essential tools for a beautiful Wayland desktop experience.
 
 ## Requirements
 
@@ -12,7 +12,7 @@ A complete Hyprland configuration with Quickshell, custom themes, and essential 
 
 The setup script will automatically install:
 - Base system utilities (`git`, `base-devel`)
-- Wayland compositor (Hyprland)
+- Wayland compositor (Hyprland Lua)
 - All required packages listed below
 
 ## Installation
