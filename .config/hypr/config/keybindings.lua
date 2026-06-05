@@ -12,10 +12,41 @@ hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 hl.bind(mainMod .. " + M", hl.dsp.exit())
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("thunar"))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call rect getToggle"))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
+
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
 
+-- Launcher
+hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call rect getToggle"))
+
+-- Dashboard
+hl.bind(
+	mainMod .. " + D",
+	hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call dashboard getToggle")
+)
+
+-- Lock
+hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call lock lock"))
+
+-- Panels
+hl.bind(mainMod .. " + A", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call calendar getToggle"))
+
+hl.bind(
+	mainMod .. " + B",
+	hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call bluetooth getToggle")
+)
+
+hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call cpu getToggle"))
+
+hl.bind(mainMod .. " + R", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call ram getToggle"))
+
+hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call weather getToggle"))
+
+hl.bind(mainMod .. " + I", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call wifi getToggle"))
+
+hl.bind(mainMod .. " + U", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call mixer getToggle"))
+
+hl.bind(mainMod .. " + Y", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call battery getToggle"))
 -- Focus movement
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
 hl.bind(mainMod .. " + right", hl.dsp.focus({ direction = "right" }))
