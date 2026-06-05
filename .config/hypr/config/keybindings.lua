@@ -42,6 +42,8 @@ hl.bind(mainMod .. " + R", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/c
 
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call weather getToggle"))
 
+hl.bind(mainMod .. " + H", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call keybind getToggle"))
+
 hl.bind(mainMod .. " + I", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call wifi getToggle"))
 
 hl.bind(mainMod .. " + U", hl.dsp.exec_cmd("qs ipc --path ~/.config/quickshell/cartoon-shell/ call mixer getToggle"))
