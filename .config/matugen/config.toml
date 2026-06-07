@@ -22,3 +22,7 @@ output_path = '~/.config/qt6ct/colors/matugen.conf'
 input_path = './templates/kitty-colors.conf'
 output_path = '~/.config/kitty/colors.conf'
 post_hook = 'pkill -SIGUSR1 kitty'
+
+[templates.hypr]
+input_path = './templates/hypr-colors.lua'
+output_path = '~/.config/hypr/config/hypr-colors.lua'
