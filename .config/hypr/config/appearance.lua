@@ -4,8 +4,6 @@
 
 ---@module 'hl'
 
-local colors = require("config.colors")
-
 hl.config({
 	general = {
 		gaps_in = 5,
@@ -13,14 +11,8 @@ hl.config({
 		border_size = 2,
 
 		col = {
-			active_border = {
-				colors = {
-					colors.primary,
-					colors.secondary,
-				},
-				angle = 45,
-			},
-			inactive_border = colors.surface,
+			active_border = { colors = { "rgba(33ccffee)", "rgba(00ff99ee)" }, angle = 45 },
+			inactive_border = "rgba(595959aa)",
 		},
 
 		resize_on_border = false,
