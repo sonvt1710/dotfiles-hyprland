@@ -25,4 +25,4 @@ post_hook = 'pkill -SIGUSR1 kitty'
 
 [templates.hypr]
 input_path = './templates/hypr-colors.lua'
-output_path = '~/.config/hypr/config/hypr-colors.lua'
+output_path = '~/.config/hypr/config/colors.lua'

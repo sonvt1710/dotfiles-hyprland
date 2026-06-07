@@ -4,7 +4,8 @@
 
 ---@module 'hl'
 
-local colors = require("config.hypr-colors")
+local colors = require("config.colors")
+
 hl.config({
 	general = {
 		gaps_in = 5,
